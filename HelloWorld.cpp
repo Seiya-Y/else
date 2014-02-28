@@ -6,7 +6,7 @@ int main( void ){
 	int i=0;
 	
 	for( char message[20] = "Hello World !!" ; i<14 ; std::cout<<message[i++]<<std::flush );
-	std::cout<<endl;
+	std::cout<<std::endl;
 	
 	return 0;
 }
